@@ -12,6 +12,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+
+
 body {
   margin: 0; }
 
@@ -359,12 +361,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #20a8d8;
+  color: #ff4040;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #167495;
+    color: #cc0000;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -591,11 +593,11 @@ mark,
   background-color: #fcf8e3; }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 10;
   list-style: none; }
 
 .list-inline {
-  padding-left: 0;
+  padding-left: 10;
   list-style: none; }
 
 .list-inline-item {
@@ -2565,7 +2567,7 @@ tbody.collapse.show {
   border-bottom: 1px solid #ddd; }
   .nav-tabs .nav-item {
     margin-bottom: -1px;
-    margin-left: 10px;
+    padding: 10;
     }
   .nav-tabs .nav-link, .nav-tabs .navbar .dropdown-toggle, .navbar .nav-tabs .dropdown-toggle {
     border: 1px solid transparent; }
@@ -7807,7 +7809,7 @@ header.navbar {
     background-color: #fff; }
 
 .sidebar {
-  padding: 0;
+  padding: 10;
   color: #fff;
   background: #263238;
   overflow: hidden; }
@@ -7869,7 +7871,7 @@ header.navbar {
         overflow-y: hidden;
         transition: max-height .3s ease-in-out; }
         .sidebar .nav .nav-item ul li {
-          padding: 0;
+          padding: 10;
           list-style: none; }
       .sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar .nav .nav-item .dropdown-toggle {
         display: block;
@@ -7879,18 +7881,19 @@ header.navbar {
         background: transparent; }
         .sidebar .nav .nav-item .nav-link:hover, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover {
           color: #fff !important;
-          background: #20a8d8 !important; }
+          background: #ff4040 !important; }
           .sidebar .nav .nav-item .nav-link:hover i, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover i, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover i {
             color: #fff !important; }
         .sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle, .navbar .sidebar .nav .nav-item .active.dropdown-toggle {
           color: #fff;
           background: #304047; }
           .sidebar .nav .nav-item .nav-link.active i, .sidebar .nav .nav-item .navbar .active.dropdown-toggle i, .navbar .sidebar .nav .nav-item .active.dropdown-toggle i {
-            color: #20a8d8; }
+            color: #ff4040; }
         .sidebar .nav .nav-item .nav-link [class^="icon-"], .sidebar .nav .nav-item .navbar .dropdown-toggle [class^="icon-"], .navbar .sidebar .nav .nav-item .dropdown-toggle [class^="icon-"], .sidebar .nav .nav-item .nav-link [class*=" icon-"], .sidebar .nav .nav-item .navbar .dropdown-toggle [class*=" icon-"], .navbar .sidebar .nav .nav-item .dropdown-toggle [class*=" icon-"] {
           display: inline-block;
           margin-top: -4px;
-          vertical-align: middle; }
+          vertical-align: middle;
+            padding : 10;}
         .sidebar .nav .nav-item .nav-link i, .sidebar .nav .nav-item .navbar .dropdown-toggle i, .navbar .sidebar .nav .nav-item .dropdown-toggle i {
           width: 20px;
           margin: 0 0.5rem 0 0;
@@ -7964,13 +7967,14 @@ header.navbar {
         display: none; }
       .sidebar-compact .sidebar .nav .nav-item {
         width: 50px;
+        padding: 10;
         overflow: hidden;
         border-left: 0 !important; }
         .sidebar-compact .sidebar .nav .nav-item ul {
           background: #263238; }
         .sidebar-compact .sidebar .nav .nav-item .nav-link, .sidebar-compact .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar-compact .sidebar .nav .nav-item .dropdown-toggle {
           position: relative;
-          padding-left: 0;
+          padding-left: 10;
           margin: 0;
           white-space: nowrap;
           border-left: 0 !important; }
@@ -7980,7 +7984,7 @@ header.navbar {
             display: block;
             float: left;
             width: 50px;
-            padding: 0;
+            padding: 10;
             margin: 0 !important;
             font-size: 18px; }
           .sidebar-compact .sidebar .nav .nav-item .nav-link .badge, .sidebar-compact .sidebar .nav .nav-item .navbar .dropdown-toggle .badge, .navbar .sidebar-compact .sidebar .nav .nav-item .dropdown-toggle .badge {
@@ -7996,7 +8000,7 @@ header.navbar {
           left: 50px; }
           .sidebar-compact .sidebar .nav .nav-item ul li {
             position: relative;
-            padding: 0; }
+            padding: 10; }
             .sidebar-compact .sidebar .nav .nav-item ul li .nav-link, .sidebar-compact .sidebar .nav .nav-item ul li .navbar .dropdown-toggle, .navbar .sidebar-compact .sidebar .nav .nav-item ul li .dropdown-toggle {
               width: 150px; }
             .sidebar-compact .sidebar .nav .nav-item ul li ul, .sidebar-compact .sidebar .nav .nav-item ul li ol {
@@ -8006,7 +8010,7 @@ header.navbar {
         .sidebar-compact .sidebar .nav .nav-item.nav-dropdown.open {
           background: #304047; }
           .sidebar-compact .sidebar .nav .nav-item.nav-dropdown.open > a.nav-link i, .sidebar-compact .sidebar .nav .navbar .nav-item.nav-dropdown.open > a.dropdown-toggle i, .navbar .sidebar-compact .sidebar .nav .nav-item.nav-dropdown.open > a.dropdown-toggle i {
-            color: #20a8d8; }
+            color: #ff4040; }
           .sidebar-compact .sidebar .nav .nav-item.nav-dropdown.open > ul, .sidebar-compact .sidebar .nav .nav-item.nav-dropdown.open > ol {
             display: none; }
         .sidebar-compact .sidebar .nav .nav-item:hover {
@@ -8880,7 +8884,8 @@ hr.transparent {
     *[dir="rtl"] .sidebar .sidebar-nav * {
       direction: rtl; }
     *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .nav-link [class^="icon-"], *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .navbar .dropdown-toggle [class^="icon-"], .navbar *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .dropdown-toggle [class^="icon-"], *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .nav-link [class*=" icon-"], *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .navbar .dropdown-toggle [class*=" icon-"], .navbar *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .dropdown-toggle [class*=" icon-"] {
-      margin-right: -4px; }
+      margin-right: -4px;
+margin-left: 10px;}
     *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .nav-link .badge, *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .navbar .dropdown-toggle .badge, .navbar *[dir="rtl"] .sidebar .sidebar-nav .nav .nav-item .dropdown-toggle .badge {
       float: left;
       margin-top: 2px; }
