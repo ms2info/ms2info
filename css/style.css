@@ -105,7 +105,14 @@ audio:not([controls]) {
   height: 0; }
 
 img {
-  border-style: none; }
+  border-style: none;
+  margin-right:5px;
+}
+
+
+img2 {
+  border-style: none;
+}
 
 svg:not(:root) {
   overflow: hidden; }
@@ -3053,7 +3060,10 @@ tbody.collapse.show {
   width: 100%; }
 
 .card-img-top {
-  width: 100%; }
+  display: block;
+  margin: auto;
+  border-style: none;
+  border-radius: 8px;}
 
 .card-img-bottom {
   width: 100%; }
